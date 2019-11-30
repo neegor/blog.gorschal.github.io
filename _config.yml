@@ -2,29 +2,20 @@
 markdown:         kramdown
 highlighter:      rouge
 
-# Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-#url:              https://fongandrew.github.io
-#baseurl:          '/hydeout'
-
-baseurl: "/blog.gorschal.github.io"
-root: /
-
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+title:            i.Gorschal
+tagline:          "i.Gorschal Personal Page"
+description:      "Developer resources: #Python, #Golang, #Dev, #Ops, and #DevOps tutorials, video, github projects, news, and more!"
+url:              https://neegor.github.io/blog.gorschal.github.io
+baseurl:          "/blog.gorschal.github.io"
+root:             /
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           "Igor Gorschal"
+  email:          "gorschal@gmail.com"
+  github:         neegor
+  twitter:        gorschal
 
 paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
 
 plugins:
   - jekyll-feed
