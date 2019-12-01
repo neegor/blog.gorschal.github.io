@@ -3,8 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 title:            i.Gorschal
-tagline:          "i.Gorschal Personal Page"
-description:      "Developer resources: #Python, #Golang, #Dev, #Ops, and #DevOps tutorials, video, github projects, news, and more!"
+tagline:          "i.Gorschal Personal Blog"
 url:              https://neegor.github.io/blog.gorschal.github.io
 baseurl:          "/blog.gorschal.github.io"
 root:             /
@@ -21,10 +20,3 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-
-# Sidebar link settings
-sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
