@@ -4,8 +4,8 @@ highlighter:      rouge
 
 title:            i.Gorschal
 tagline:          "i.Gorschal Personal Blog"
-url:              https://neegor.github.io/blog.gorschal.github.io
-baseurl:          "/blog.gorschal.github.io"
+url:              https://blog.gorschal.com
+baseurl:          "/"
 root:             /
 
 author:
