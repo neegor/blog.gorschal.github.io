@@ -3,14 +3,14 @@ markdown:         kramdown
 highlighter:      rouge
 
 title:            i.Gorschal
-tagline:          "i.Gorschal Personal Blog"
+tagline:          i.Gorschal Personal Blog
 url:              https://blog.gorschal.com
-baseurl:          "/"
+baseurl:          /
 root:             /
 
 author:
-  name:           "Igor Gorschal"
-  email:          "gorschal@gmail.com"
+  name:           Igor Gorschal
+  email:          gorschal@gmail.com
   github:         neegor
   twitter:        gorschal
 
