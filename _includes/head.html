@@ -10,7 +10,16 @@
     i.Gorschal Personal Blog
   </title>
 
-  {% include google-analytics.html %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143819024-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143819024-1');
+  </script>
+
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
@@ -20,8 +29,9 @@
   {% include favicons.html %}
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" />
-  
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+    href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" />
+
   <meta name="google-site-verification" content="GIL8csYee-x5UC2J44GjurbZtBykWyQTXxTHSNINNUU" />
 
   {% include custom-head.html %}
