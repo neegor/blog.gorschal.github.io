@@ -42,6 +42,29 @@ for i in range(10):
 squares = [i*i for i in range(10)]
 ```
 
+И еще немного до кучи. Как вам такое? Ни чего подобного я не встречал ни где кроме Python.
+
+```python
+# Generates a list containing values from 0 to 9
+[i for i in range(10)]
+
+# Generates a list of all even values from 0 to 9
+[i for i range(10) if i % 2 == 0]
+
+# Generates a list containing values from 1 to 10
+[i + 1 for i in range(10)]
+
+# Generates a list containing values from 0 to -9
+[-i for i in range(10)]
+
+# Generates all possible pairs between 0 and 9
+[(a, b) for a in range(10) for b in range(10)]
+
+# Shallow copies another list
+my_list = [1, 3, 5, 7, 9]
+[item for item in my_list]
+```
+
 ## 3. Сортировка *complex iterables* с помощью встроенного метода *sorted()*
 
 Если нам нужно отсортировать какой либо итерабельный файл, например, список, кортеж или словарь, то нам не нужно реализовывать алгоритм сортировки самостоятельно. Мы также можем использовать и встроенную функцию  ```sorted```. Она автоматически сортирует числа в порядке возрастания и возвращает новый список. Если мы хотим получить результат в порядке убывания, мы можем использовать аргумент ```reverse=True```. И это работает с любым итерабельным параметром.
