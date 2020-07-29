@@ -1,1 +1,1 @@
-# blog.gorschal.github.io-
+# blog
