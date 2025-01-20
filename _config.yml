@@ -2,8 +2,8 @@
 markdown:         kramdown
 highlighter:      rouge
 
-title:            i.Gorschal
-tagline:          i.Gorschal Personal Blog
+title:            Gorschal
+tagline:          Gorschal Personal Blog
 url:              https://blog.gorschal.com
 baseurl:          /
 root:             /

@@ -2,7 +2,7 @@
 layout: post
 title: Что нового в TensorFlow 2.0
 categories:
-  - MashineLearning
+  - Разработка
   - Develop
 tags:
   - develop
