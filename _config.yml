@@ -2,7 +2,7 @@
 markdown:         kramdown
 highlighter:      rouge
 
-title:            Gorschal
+title:            Gorschal Blog
 tagline:          Gorschal Personal Blog
 url:              https://blog.gorschal.com
 baseurl:          /
@@ -12,7 +12,6 @@ author:
   name:           Igor Gorschal
   email:          gorschal@gmail.com
   github:         neegor
-  twitter:        gorschal
 
 paginate:         5
 
