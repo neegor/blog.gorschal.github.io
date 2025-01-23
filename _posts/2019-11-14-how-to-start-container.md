@@ -2,8 +2,7 @@
 layout: post
 title: Как стартануть контейнер X после того как стартанет Y
 categories:
-  - Develop
-  - Devops
+  - Разработка
 tags:
   - develop
   - devops
