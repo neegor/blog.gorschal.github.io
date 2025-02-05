@@ -2,7 +2,7 @@
 layout: post
 title: Про Distroless
 categories:
-  - Разработка
+  - development
 tags:
   - docker
   - distroless

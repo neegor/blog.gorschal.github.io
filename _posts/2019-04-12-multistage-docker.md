@@ -2,7 +2,7 @@
 layout: post
 title: Multi-Stage Docker на все случаи жизни
 categories:
-  - Разработка
+  - development
 tags:
   - docker
   - multistage

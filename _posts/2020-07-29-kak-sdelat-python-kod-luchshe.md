@@ -2,7 +2,7 @@
 layout: post
 title: 10 способов как сделать ваш Python код лучше
 categories:
-  - Разработка
+  - development
 tags:
   - develop
   - python

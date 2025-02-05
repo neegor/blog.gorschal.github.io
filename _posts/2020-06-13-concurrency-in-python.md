@@ -2,7 +2,7 @@
 layout: post
 title: Про параллелизм в Python
 categories:
-  - Разработка
+  - development
 tags:
   - develop
   - python
