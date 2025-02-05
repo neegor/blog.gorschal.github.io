@@ -2,7 +2,7 @@
 layout: post
 title: Поверхностное сравнение для фреймворков глубокого обучения
 categories:
-  - development
+  - Разработка
 tags:
   - develop
   - tensorflow

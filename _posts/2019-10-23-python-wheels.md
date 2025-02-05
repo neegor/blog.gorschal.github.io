@@ -2,7 +2,7 @@
 layout: post
 title: Python на колесах
 categories:
-  - development
+  - Разработка
 tags:
   - develop
   - python
