@@ -1,12 +1,15 @@
 ---
 layout: post
 title: 10 способов как сделать ваш Python код лучше
+excerpt_separator: <!--more-->
 categories:
   - Разработка
 tags:
   - develop
   - python
 ---
+
+<!--more-->
 
 ## 1. Итерация с помощью *enumerate()* вместо *range(len())*
 
