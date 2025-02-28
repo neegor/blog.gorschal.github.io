@@ -49,7 +49,7 @@ class UsernamePathConverter:
     regex = '^[a-zA-Z0-9_.-]+$'
 
     def to_python(self, value):
-        # преобразовать значение в соответствующий ему тип данных python
+        # преобразовать значение в соответствующий ему тип данных
         return value
 
     def to_url(self, value):
