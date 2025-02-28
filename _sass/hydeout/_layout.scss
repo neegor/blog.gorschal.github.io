@@ -37,11 +37,11 @@ body {
 
   .site-title {
     font-family: "Kanit", serif;
-    font-weight: normal;
+    font-weight: 700;
+    font-style: normal;
     font-size: $large-font-size;
     margin-top: 0;
     margin-bottom: 3rem;
-
     .back-arrow { margin-right: 0.5rem; }
   }
 }
