@@ -87,3 +87,70 @@ environment:
 ```
 
 Данный лайфхак доступен для любого случая кода вам необходимо стартануть контейнер X после того как стартанет Y. Не забывайте только подставлять правильные имена контейнеров и порты которые необходимо контролировать.
+
+### UPD 2024.10.14
+
+Все написанное выше актуально и по сей день, но в современном композе появилась и нативная поддержка всего написанного выше. Выглядит примерно так:
+
+```yaml
+version: "3.9"
+
+x-grd:
+  &hello-app
+  build:
+    context: .
+    dockerfile: ./Dockerfile
+    target: develop
+  tty: true
+  restart: unless-stopped
+
+
+services:
+
+  postgresql:
+    image: postgres:12-alpine
+    container_name: hello-postgresql
+    restart: unless-stopped
+    volumes:
+      - hello-postgres-data:/var/lib/postgresql/data/pgdata
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_DB=hello
+      - POSTGRES_USER=hellouser
+      - POSTGRES_PASSWORD=hellopsw
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -d k8grid -U hellouser"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports:
+      - 5432:5432
+
+  django_app:
+    <<: *hello-app
+    container_name: hello-django
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - 8000:8000
+    volumes:
+      - :/workspace:cached
+    depends_on:
+      django_migrate:
+        condition: service_completed_successfully
+
+  django_migrate:
+    <<: *hello-app
+    container_name: hello-django-migrate
+    command: python manage.py migrate --noinput
+    restart: 'no'
+    depends_on:
+      postgresql:
+        condition: service_healthy
+
+volumes:
+  hello-postgres-data:
+
+networks:
+  default:
+    name: hello-network
+```
