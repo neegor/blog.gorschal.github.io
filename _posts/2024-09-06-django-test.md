@@ -7,6 +7,7 @@ categories:
 tags:
   - python
   - django
+  - testing
   - how
 ---
 
