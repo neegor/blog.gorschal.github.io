@@ -20,7 +20,7 @@ __DDD__ однозначно сегодня на хайпе. Много пишу
 Решил выдать свою версию. Постараюсь по возможности как можно проще и подробнее всё выложить здесь к лету. А ниже список тем, которые затрону.
 
 1. [__Фокус на предметной области (Domain)__](https://blog.gorschal.com/domain.html).
-2. __Универсальный язык (Ubiquitous Language)__.
+2. [__Универсальный язык (Ubiquitous Language)__](https://blog.gorschal.com/ubiquitous-language.html).
 3. __Модель предметной области (Domain Model)__.
 4. __Ограниченные контексты (Bounded Contexts)__.
 5. __Стратегическое проектирование (Strategic Design)__: Использование таких концепций, как ядро (`Core Domain`), поддерживающие поддомены (`Supporting Subdomains`) и общие поддомены (`Generic Subdomains`).

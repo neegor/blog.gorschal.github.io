@@ -1,3 +1,4 @@
+---
 layout: post
 title: Универсальный язык (Ubiquitous Language) в DDD
 excerpt_separator: <!--more-->
