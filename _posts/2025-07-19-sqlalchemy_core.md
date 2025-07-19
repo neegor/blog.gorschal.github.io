@@ -6,7 +6,6 @@ categories:
   - Разработка
 tags:
   - architecture
-  - orm
   - sqlalchemy_core
   - sqlalchemy
   - python
@@ -16,7 +15,7 @@ tags:
 
 <!--more-->
 
-SQLAlchemy Core - это система SQL-выражений, которая предоставляет схему-centric использование SQL.
+SQLAlchemy Core - это система SQL-выражений, которая предоставляет схему-centric использование SQL. Это не ORM!
 
 ## 1. Подключение к базе данных
 
