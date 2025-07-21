@@ -23,7 +23,7 @@ tags:
 2. [**Универсальный язык (Ubiquitous Language)**](https://blog.gorschal.com/ubiquitous-language.html).
 3. [**Модель предметной области (Domain Model)**](https://blog.gorschal.com/domain-model.html).
 4. [**Ограниченные контексты (Bounded Contexts)**](https://blog.gorschal.com/bounded-contexts.html).
-5. **Стратегическое проектирование (Strategic Design)**: Использование таких концепций, как ядро ([**Core Domain**](https://blog.gorschal.com/core-domain.html)), поддерживающие поддомены (`Supporting Subdomains`) и общие поддомены (`Generic Subdomains`).
+5. **Стратегическое проектирование (Strategic Design)**: Использование таких концепций, как ядро ([**Core Domain**](https://blog.gorschal.com/core-domain.html)), поддерживающие поддомены ([**Supporting Subdomains**](https://blog.gorschal.com/supporting-subdomains.html)) и общие поддомены (`Generic Subdomains`).
 6. **Тактическое проектирование (Tactical Design)**: Применение шаблонов проектирования, таких как сущности (`Entities`), объекты-значения (`Value Objects`), агрегаты (`Aggregates`), репозитории (`Repositories`) и сервисы домена (`Domain Services`).
 7. **Итеративный процесс (Iterative Development)**.
 8. **Фокус на сложности ядра (Core Domain)**.

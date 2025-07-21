@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Использование концепции Ядра (Core Domain) в (DDD)
+title: Использование концепции ядра (Core Domain) в (DDD)
 excerpt_separator: <!--more-->
 categories:
   - Разработка
