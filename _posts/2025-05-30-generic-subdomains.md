@@ -11,7 +11,11 @@ tags:
   - ddd
 ---
 
+[Начало и оглавление здесь](https://blog.gorschal.com/domain-driven-design.html)
+
 Общие поддомены (**Generic Subdomains**) - это концепция из Domain-Driven Design (DDD), которая относится к частям домена, которые являются общими для многих систем и не являются уникальными или конкурентными преимуществами бизнеса.
+
+<!--more-->
 
 ## Что такое Generic Subdomains?
 

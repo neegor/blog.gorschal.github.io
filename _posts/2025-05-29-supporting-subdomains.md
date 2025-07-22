@@ -11,7 +11,11 @@ tags:
   - ddd
 ---
 
+[Начало и оглавление здесь](https://blog.gorschal.com/domain-driven-design.html)
+
 Поддерживающие поддомены (**Supporting Subdomains**) - это одна из трех категорий поддоменов в Domain-Driven Design (DDD), наряду с Core (основными) и Generic (общими) поддоменами. Давайте подробно разберем эту концепцию с примерами на Python.
+
+<!--more-->
 
 ## Что такое поддерживающие поддомены?
 
